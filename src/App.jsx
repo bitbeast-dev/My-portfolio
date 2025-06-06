@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { toast, ToastContainer } from "react-toastify";
 
 export default function Page() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,6 +21,9 @@ export default function Page() {
   const [formErrors, setFormErrors] = useState({});
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
+  function sendMessage(){
+    toast.success("Message sent successfully!")
+  }
   const heroRef = useRef(null);
   const skillsRef = useRef(null);
   const projectsRef = useRef(null);
@@ -853,11 +857,14 @@ export default function Page() {
                 )}
               </div>
               <button
+              onClick={sendMessage}
                 type="submit"
                 className="w-full py-4 bg-[#08ce93] text-white rounded-lg hover:bg-[#08ce93] transition-all duration-300 transform hover:scale-105 font-semibold"
               >
+              
                 Send Message
               </button>
+                <ToastContainer/>
             </form>
           </div>
         </div>
@@ -925,7 +932,7 @@ export default function Page() {
               </div>
               <div className="mt-4">
                 <a
-                  href="/resume.pdf"
+                  href="/meet me.pdf"
                   download
                   className="inline-block px-6 py-2 bg-[#08ce93] text-white rounded-full hover:bg-[#08ce93] transition-colors"
                 >
