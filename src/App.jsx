@@ -85,7 +85,7 @@ export default function Page() {
       category: "web",
       image: "app (1).jfif",
       demo: "https://youthcodelab.com",
-      github: "https://https://github.com/bitbeast-dev",
+      github: "https://github.com/bitbeast-dev",
     },
     {
       id: 2,
@@ -95,7 +95,7 @@ export default function Page() {
       category: "dashboard",
       image: "afri (7).jfif",
       demo: "https://demo.com",
-      github: "https://github.com/bitbeast-dev?tab=repositories",
+      github: "https://github.com/bitbeast-dev",
     },
     {
       id: 2,
@@ -105,7 +105,7 @@ export default function Page() {
       category: "dashboard",
       image: "afri (3).jfif",
       demo: "https://demo.com",
-      github: "https://github.com/bitbeast-dev?tab=repositories",
+      github: "https://github.com/bitbeast-dev",
     },
     {
       id: 1,
@@ -115,7 +115,7 @@ export default function Page() {
       category: "web",
       image: "afri (5).jfif",
       demo: "https://youthcodelab.com",
-      github: "https://github.com/bitbeast-dev?tab=repositories",
+      github: "https://github.com/bitbeast-dev",
     },
     {
       id: 2,
@@ -125,18 +125,18 @@ export default function Page() {
       category: "dashboard",
       image: "afri (5).jfif",
       demo: "https://demo.com",
-      github: "https://github.com/bitbeast-dev?tab=repositories",
+      github: "https://github.com/bitbeast-dev",
     },
     {
       id: 2,
       title: "Empowering High School Students Through Youth Code Lab Training",
       description:
         "Youth Code Lab trained high school students in modern web development. ",
-      tech: ["Next.js", "TypeScript", "PostgreSQL"],
+      tech: ["Mentored Level 5 SOD internship "],
       category: "dashboard",
       image: "essa.PNG",
       demo: "https://demo.com",
-      github: "https://github.com/bitbeast-dev?tab=repositories",
+      github: "https://github.com/bitbeast-dev",
     },
   ];
 
@@ -643,7 +643,7 @@ export default function Page() {
                     alt=""
                     className="rounded-lg w-15 h-15 object-cover"
                   />
-                  <h3 className="text-xl font-bold mb-2 text-white">
+                  <h3 className="text-xl font-bold mb-2 text-white ">
                     {project.title}
                   </h3>
                   <p className="text-white dark:text-gray-300 mb-4">
@@ -653,7 +653,7 @@ export default function Page() {
                     {project.tech.map((tech, index) => (
                       <span
                         key={index}
-                        className="px-3 py-1 bg-[#08ce93] dark:bg-[#08ce93] text-[#08ce93] dark:text-[#08ce93] rounded-full text-sm"
+                        className="px-3 py-1 bg-[#08ce93] dark:bg-[#08ce93] text-white  rounded-full text-sm"
                       >
                         {tech}
                       </span>
