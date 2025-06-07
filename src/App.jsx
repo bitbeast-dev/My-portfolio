@@ -85,7 +85,7 @@ export default function Page() {
       category: "web",
       image: "app (1).jfif",
       demo: "https://youthcodelab.com",
-      github: "https://github.com/bitbeast-dev?tab=repositories",
+      github: "https://https://github.com/bitbeast-dev",
     },
     {
       id: 2,
